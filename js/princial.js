@@ -10,10 +10,7 @@ var tdaltura = paciente.querySelector('.info-altura');
 var altura = tdaltura.textContent;
 
 //Calcular o imc
-
 var imc = peso / (altura * altura);
+var tdimc = document.querySelector('.info-imc');
+tdimc.textContent = imc;
 
-console.log(paciente);
-console.log(tdaltura);
-console.log(altura);
-console.log(imc);
